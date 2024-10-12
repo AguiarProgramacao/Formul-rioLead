@@ -63,7 +63,14 @@ input[type="tel"] {
   margin-bottom: 15px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768x) {
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+  }
+
   .form-container {
     margin: 20px 10px;
   }
